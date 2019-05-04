@@ -1,0 +1,246 @@
+/*colors*/
+.text-main-clr {
+  color: #eee; }
+
+.text-sec-clr {
+  color: #A7DA70 !important; }
+
+.text-tert-clr {
+  color: #94539e !important; }
+
+.dtls-clr {
+  color: #6F539E; }
+
+/*global styles*/
+.list-reset {
+  padding-left: 0;
+  list-style: none; }
+
+a:focus, a:hover {
+  text-decoration: none; }
+
+.has-pseudo:after, .has-pseudo:before {
+  content: '';
+  display: inline-block; }
+
+.has-pseudo-block:after, .has-pseudo-block:before {
+  content: '';
+  display: block; }
+
+h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+main {
+  padding: 40px 0 60px; }
+
+.z-depth-1 {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.z-depth-1-half {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.absolute-start {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.main-transition {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+html {
+  font-size: 16px; }
+
+.font-8 {
+  font-size: 0.5rem; }
+
+.font-9 {
+  font-size: 0.5625rem; }
+
+.font-10 {
+  font-size: 0.625rem; }
+
+.font-11 {
+  font-size: 0.6875rem; }
+
+.font-12 {
+  font-size: 0.75rem; }
+
+.font-13 {
+  font-size: 0.8125rem; }
+
+.font-14 {
+  font-size: 0.875rem; }
+
+.font-15 {
+  font-size: 0.9375rem; }
+
+.font-16 {
+  font-size: 1rem; }
+
+.font-17 {
+  font-size: 1.0625rem; }
+
+.font-18 {
+  font-size: 1.125rem; }
+
+.font-20 {
+  font-size: 1.25rem; }
+
+.font-22 {
+  font-size: 1.375rem; }
+
+.font-24 {
+  font-size: 1.5rem; }
+
+.font-26 {
+  font-size: 1.625rem; }
+
+.font-28 {
+  font-size: 1.75rem; }
+
+.font-30 {
+  font-size: 1.875rem; }
+
+.font-56 {
+  font-size: 3.5rem; }
+
+.font-60 {
+  font-size: 3.75rem; }
+
+.font-70 {
+  font-size: 4.375rem; }
+
+.font-80 {
+  font-size: 5rem; }
+
+.font-semi-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; }
+
+.font-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; }
+
+.font-medium {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; }
+
+/*global styles end*/
+body {
+  color: #5a5a5a;
+  font-family: 'Montserrat', sans-serif;
+  background: #3e3e40;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3e3e40 0%, #373739 8%, #38383a 9%, #333335 12%, #313133 17%, #2f2f31 17%, #303032 18%, #2b2b2d 23%, #2b2b2d 25%, #292929 25%, #29282d 26%, #272729 27%, #27262b 28%, #272727 29%, #26252a 30%, #232323 34%, #232227 35%, #222224 35%, #202020 38%, #1f1e23 40%, #1d1d1d 41%, #1f1f1f 41%, #1d1c21 42%, #1c1c1c 43%, #1b1b1b 45%, #1a191e 46%, #1a1a1a 46%, #19181d 47%, #171717 51%, #16151a 51%, #151515 52%, #151419 53%, #151515 53%, #131313 56%, #131217 57%, #121212 57%, #101010 61%, #0e0d12 61%, #0e0e0e 62%, #0d0d0d 66%, #0d0c11 66%, #0b0b0b 67%, #0c0c0c 68%, #0b0a0f 68%, #090909 70%, #090909 74%, #060606 75%, #070707 77%, #030303 86%, #010101 86%, #020202 89%, #000000 89%, #020202 90%, #000000 92%, #000000 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3e3e40 0%, #373739 8%, #38383a 9%, #333335 12%, #313133 17%, #2f2f31 17%, #303032 18%, #2b2b2d 23%, #2b2b2d 25%, #292929 25%, #29282d 26%, #272729 27%, #27262b 28%, #272727 29%, #26252a 30%, #232323 34%, #232227 35%, #222224 35%, #202020 38%, #1f1e23 40%, #1d1d1d 41%, #1f1f1f 41%, #1d1c21 42%, #1c1c1c 43%, #1b1b1b 45%, #1a191e 46%, #1a1a1a 46%, #19181d 47%, #171717 51%, #16151a 51%, #151515 52%, #151419 53%, #151515 53%, #131313 56%, #131217 57%, #121212 57%, #101010 61%, #0e0d12 61%, #0e0e0e 62%, #0d0d0d 66%, #0d0c11 66%, #0b0b0b 67%, #0c0c0c 68%, #0b0a0f 68%, #090909 70%, #090909 74%, #060606 75%, #070707 77%, #030303 86%, #010101 86%, #020202 89%, #000000 89%, #020202 90%, #000000 92%, #000000 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3e3e40 0%, #373739 8%, #38383a 9%, #333335 12%, #313133 17%, #2f2f31 17%, #303032 18%, #2b2b2d 23%, #2b2b2d 25%, #292929 25%, #29282d 26%, #272729 27%, #27262b 28%, #272727 29%, #26252a 30%, #232323 34%, #232227 35%, #222224 35%, #202020 38%, #1f1e23 40%, #1d1d1d 41%, #1f1f1f 41%, #1d1c21 42%, #1c1c1c 43%, #1b1b1b 45%, #1a191e 46%, #1a1a1a 46%, #19181d 47%, #171717 51%, #16151a 51%, #151515 52%, #151419 53%, #151515 53%, #131313 56%, #131217 57%, #121212 57%, #101010 61%, #0e0d12 61%, #0e0e0e 62%, #0d0d0d 66%, #0d0c11 66%, #0b0b0b 67%, #0c0c0c 68%, #0b0a0f 68%, #090909 70%, #090909 74%, #060606 75%, #070707 77%, #030303 86%, #010101 86%, #020202 89%, #000000 89%, #020202 90%, #000000 92%, #000000 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e40', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */ }
+
+.container--main {
+  box-sizing: content-box;
+  background: #fff; }
+
+.left-wrapp {
+  padding: 60px 5% 70px 10%;
+  width: 55%;
+  border-right: 3px dotted #b8c9d2; }
+
+.main-title {
+  line-height: 1.2; }
+
+.name:after {
+  content: '';
+  display: inline-block;
+  border: 2px solid #b8c9d2;
+  position: absolute;
+  left: 105%;
+  top: 15px;
+  height: 139px; }
+
+.surname {
+  text-indent: 218px; }
+
+.name::first-letter,
+.surname::first-letter {
+  font-size: 80px;
+  line-height: 1.05;
+  color: #94539e; }
+
+.name,
+.surname {
+  color: #6F539E; }
+
+.contacts {
+  left: 220px;
+  top: 16px; }
+
+a.underlined {
+  color: #5a5a5a; }
+
+a.underlined:after {
+  content: '';
+  display: block;
+  border-top: 1px solid;
+  width: 100%; }
+
+.section-education_desc {
+  line-height: 1.5; }
+
+.progress-bar {
+  background: #eee;
+  border: 1px solid #5a5a5a; }
+
+.progress-cols .progress-bar_inner {
+  background: #A7DA70;
+  height: 5px;
+  text-align: center; }
+
+.progress-bar_inner:before {
+  content: '';
+  display: inline-block;
+  color: #fff;
+  font-size: 18px; }
+
+.right-wrapp {
+  padding: 60px 3% 70px 5%;
+  width: 45%; }
+
+.social-icons-wrapp {
+  min-height: 176px; }
+
+.social-icons {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px; }
+
+.social-icons svg {
+  fill: #94539e; }
+
+.spaciality {
+  background: #fff;
+  line-height: 1;
+  left: 45px;
+  bottom: 0; }
+
+.spaciality_diff-text {
+  background: inherit;
+  margin-left: -80px;
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=main.css.map */
